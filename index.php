@@ -51,8 +51,8 @@
 			<div class="bg-modal"> 
             	<div class="modal-content">
 					<div class="close">+</div>
-                	<img src="images/profile_placeholder.gif" alt="">
-                    <h3>Form</h3>
+                	<img src="images/profile.jpeg" alt="">
+                    <h3>Registration Form</h3>
                     <form method="post" action="">
                         <div class="row uniform 50%">
                         	<div class="6u 12u$(4)">
@@ -90,8 +90,8 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="typewritercontainer">
-					<h1>WELCOME </br></h1>
-					<h2><span class="txt-type" data-wait="3000" data-words='["TO THE BIGGEST IN DEMAND SKILL TRAINING"]'></span>
+					<h1>WELCOME</br></h1>
+					<h2><span class="txt-type" data-wait="3000" data-words='["TO THE BIGGEST VIRTUAL SKILL TRAINING EVENT"]'></span>
 					</h2>
 
 				</div> 
@@ -173,9 +173,6 @@
 					</div>
 				</div>
 			</section>
-
-			<hr>
-
 
 		<!-- Two -->
 			<section id="two" class="wrapper style2 special">

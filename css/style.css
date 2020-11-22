@@ -1043,6 +1043,8 @@
 		text-align: center;
 		overflow: hidden;
 	}
+	
+
 
 		#banner :last-child {
 			margin-bottom: 0;
@@ -1244,17 +1246,19 @@
 
 		.typewritercontainer h1, h2 {
   			font-weight: 200;
-  			margin: 0.4rem;
+			margin: 0.4rem;
+			
 		}
 
 		.typewritercontainer h1 {
 			  font-size: 3rem !important;
-			  color: rgb(87, 85, 85);
+			  color: rgb(61, 58, 58);
+			  font-family: fantasy;
 		}
 
 		.typewritercontainer h2 {
   			font-size: 2rem !important;
-			  color: rgb(224, 224, 224);
+			  color: rgb(99, 67, 67);
 		}
 /* Cursor in typewriter effect */
 		.txt-type > .txt {
