@@ -1042,6 +1042,7 @@
 		padding: 14em 0em 14em;
 		text-align: center;
 		overflow: hidden;
+		
 	}
 	
 
@@ -1245,15 +1246,14 @@
 	}
 
 		.typewritercontainer h1, h2 {
-  			font-weight: 200;
+  			font-weight: 300;
 			margin: 0.4rem;
 			
 		}
 
 		.typewritercontainer h1 {
-			  font-size: 3rem !important;
-			  color: rgb(61, 58, 58);
-			  font-family: fantasy;
+			  font-size: 2rem !important;
+			  color: rgb(17, 17, 17);
 		}
 
 		.typewritercontainer h2 {
@@ -1267,7 +1267,7 @@
 
 		@media(min-width: 1200px) {
 			.typewritercontainer h1 {
-			font-size: 4rem !important;
+			font-size: 3rem !important;
 			}
 		}
 		
@@ -1283,7 +1283,7 @@
 		
 		@media(max-width: 500px) {
 			.typewritercontainer h1 {
-			font-size: 3rem !important;
+			font-size: 2rem !important;
 			}
 			.typewritercontainer h2 {
 			font-size: 1.5rem !important;

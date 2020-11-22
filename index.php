@@ -90,9 +90,9 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="typewritercontainer">
-					<h1>WELCOME</br></h1>
-					<h2><span class="txt-type" data-wait="3000" data-words='["TO THE BIGGEST VIRTUAL SKILL TRAINING EVENT"]'></span>
-					</h2>
+					<h1>Welcome to the </br> <span class="txt-type" data-wait="3000" data-words='["BIGGEST","BADDEST","COOLEST","CRAZIEST"]'></span> </br>
+					virtual skill training event</h1>
+			
 
 				</div> 
 				
