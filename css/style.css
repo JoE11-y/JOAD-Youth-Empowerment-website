@@ -167,8 +167,8 @@
 
 	header p {
 		color: #858585;
-		position: relative;
 		margin: 0 0 1.5em 0;
+		/*position: relative;*/
 	}
 
 	header h2 + p {
@@ -222,6 +222,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -243,6 +244,7 @@
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
+		input[type="tel"]:invalid,
 		select:invalid,
 		textarea:invalid {
 			box-shadow: none;
@@ -251,6 +253,7 @@
 		input[type="text"]:focus,
 		input[type="password"]:focus,
 		input[type="email"]:focus,
+		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
 			border-color: #383b43;
@@ -293,6 +296,7 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="tel"],
 	select {
 		height: 2.75em;
 	}
@@ -428,7 +432,7 @@
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
-		position: relative;
+		/*position: relative;*/
 	}
 
 		.icon:before {
@@ -1031,12 +1035,13 @@
 /* Banner */
 
 	#banner {
-		background-image: url(../images/dark_tint.png), url(../images/bokeh_car_lights_bg.jpg);
+		background-image: url(../images/dark_tint.png), url(../images/background.jpg);
 		background-position: center center;
 		background-size: cover;
 		color: #ffffff;
 		padding: 14em 0em 14em;
 		text-align: center;
+		overflow: hidden;
 	}
 
 		#banner :last-child {
@@ -1089,7 +1094,7 @@
 
 		.wrapper.style2 .profile {
 			margin-bottom: 2em;
-			text-align: left;
+			text-align: center;
 		}
 
 			.wrapper.style2 .profile img {
@@ -1100,8 +1105,13 @@
 			}
 
 			.wrapper.style2 .profile h4 {
+				clear: both;
 				margin-bottom: 0;
 				margin-top: 1em;
+				padding:0em 4em 0em 0em;
+			}
+			.wrapper.style2 .profile p {
+				padding:0em 4em 0em 0em;
 			}
 
 		.wrapper.style2 footer {
@@ -1217,3 +1227,128 @@
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
 		}
+
+/*typewriter effect*/
+	@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+
+
+	.typewritercontainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 100%;
+		padding: 0 3rem;
+		padding-bottom: 3em;
+		font-family: 'Raleway', sans-serif;
+	}
+
+		.typewritercontainer h1, h2 {
+  			font-weight: 200;
+  			margin: 0.4rem;
+		}
+
+		.typewritercontainer h1 {
+			  font-size: 2.5rem !important;
+			  color: rgb(224, 224, 224);
+		}
+
+		.typewritercontainer h2 {
+  			font-size: 2rem !important;
+			  color: rgb(224, 224, 224);
+		}
+/* Cursor in typewriter effect */
+		.txt-type > .txt {
+  		border-right: 0.2rem solid #777;
+		}
+
+		@media(min-width: 1200px) {
+			.typewritercontainer h1 {
+			font-size: 4rem !important;
+			}
+		}
+		
+		@media(max-width: 800px) {
+			.typewritercontainer {
+			padding: 0 1rem !important;
+			}
+		
+			.typewritercontainer h1 {
+			font-size: 1.5rem !important;
+			}
+		}
+		
+		@media(max-width: 500px) {
+			.typewritercontainer h1 {
+			font-size: 1rem !important;
+			}
+			.typewritercontainer h2 {
+			font-size: 0.5rem !important;
+			}
+		}
+
+
+/* floating forms */
+	.bg-modal {
+    	width: 100%;
+    	height: 100%;
+    	background-color: rgba(0, 0, 0, 0.6);
+    	position: absolute;
+    	top: 0;
+		display: flex;
+		justify-content: center;
+		padding-top: 10%;
+		visibility: hidden;
+	}
+
+	.bg-modal-active{
+		visibility: visible;
+		opacity: 1;
+	}
+	.modal-content {
+    	width: 400px;
+    	height: 500px;
+    	background-color: white;
+    	border-radius: 10px; 
+    	text-align: center;
+		padding: 20px;
+		position: relative;
+	}
+
+	.close {
+		padding-top: 2%;
+		position: absolute;
+		top: 0;
+		right: 2%;
+		font-size: 45px;
+		transform: rotate(45deg);
+		cursor: pointer;
+	}
+	
+/* Alerts Messages */
+	.alert-success{
+		z-index: 1;
+		background: #D4EDDA;
+		font-size: 18px;
+		font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		padding: 20px 40px;
+		min-width: 420px;
+		position: fixed;
+		right: 0;
+		top: 10px;
+		border-left: 8px solid #3AD66E;
+		border-radius: 8px;
+	  }
+	  
+	  .alert-error{
+		z-index: 1;
+		background: #FFF3CD;
+		font-size: 18px;
+		font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		padding: 20px 40px;
+		min-width: 420px;
+		position: fixed;
+		right: 0;
+		top: 10px;
+		border-left: 8px solid #ff0202;
+		border-radius: 8px;
+	  }
