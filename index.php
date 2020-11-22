@@ -110,50 +110,71 @@
 
 		<!-- One -->
 			<section id="one" class="wrapper style1 special">
-				<div class="container">
+				<div class="container">	
 					<header class="major">
 						<h2>A Virtual 4-Day Skill Acquisition Program</h2>
-						<p>Great Opportunity to learn skills for just a minimal fee</p>
+						<p>Great opportunity to learn in-demand skills for just a minimal fee</p>
 					</header>
+
+					<hr />
+
+					<div class="words">
+					<h4>Want to make more money while setting your own time? </br>
+						Wondering how to be your boss without having to leave your home? </br>
+						What's the secret to earning six figures and more? </br>
+						Can you make so much despite a harsh economy?</br>
+						Wondering on how you can join this digital train? </br>
+						<code> Well look no further </code></br>
+						Now is the chance for you to take the initiative </br>
+						The biggest level up skill acquisition is about to take place and at a discounted offer! </br>
+						You'll be receiving so much offer for almost nothing in return! </br>
+						JOAD empowerment program presents a week of training on some of the most sought after skills in the world! </br>
+					</h4>
+					</div>
+					
+					<hr />
+					<h2> <b>What to expect</b> </h2>
 					<div class="row 150%">
 						<div class="4u 12u$(medium)">
 							<section class="box">
 								<i class="icon big rounded color1 fa-laptop"></i>
 								<h3>Web Design</h3>
-								<p>Building a simple website with Wordpress</p>
+								<p>Building a simple and really cool website with Wordpress</p>
 							</section>
 						</div>
 						<div class="4u 12u$(medium)">
 							<section class="box">
 								<i class="icon big rounded color9 fa-desktop"></i>
 								<h3>Blogging</h3>
-								<p>Something Something Something</p>
+								<p>Kickstarting your career in the blogging multiverse</p>
 							</section>
 						</div>
 						<div class="4u 12u$(medium)">
 							<section class="box">
 								<i class="icon big rounded color5 fa-book"></i>
-								<h3>Copywriting</h3>
-								<p>Something Something Something</p>
+								<h3>The Art of Writing</h3>
+								<p>Mastering the Art of writing to enhance literary flow</p>
 							</section>
 						</div>
 						<div class="4u 12u$(medium)">
 							<section class="box">
 								<i class="icon big rounded color7 fa-codepen"></i>
-								<h3>Blogging</h3>
-								<p>Something Something Something</p>
+								<h3>Graphic Design</h3>
+								<p>Learning to build really cool graphic designs.</p>
 							</section>
 						</div>
 						<div class="4u 12u$(medium)">
 							<section class="box">
-								<i class="icon big rounded color7 fa-codepen"></i>
-								<h3>Blogging</h3>
-								<p>Something Something Something</p>
+								<i class="icon big rounded color6 fa-deviantart"></i>
+								<h3>Social Media Marketing</h3>
+								<p>Learn to increase brand presence online</p>
 							</section>
 						</div>
 					</div>
 				</div>
 			</section>
+
+			<hr>
 
 
 		<!-- Two -->
@@ -161,7 +182,7 @@
 				<div class="container">
 					<header class="major">
 						<h2>Meet Our Team</h2>
-						<p>The Ladies are prayer warriors</p>
+						<p>You are in Safe hands</p>
 					</header>
 					<section class="profiles">
 						<div class="row">

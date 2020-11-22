@@ -1248,8 +1248,8 @@
 		}
 
 		.typewritercontainer h1 {
-			  font-size: 2.5rem !important;
-			  color: rgb(224, 224, 224);
+			  font-size: 3rem !important;
+			  color: rgb(87, 85, 85);
 		}
 
 		.typewritercontainer h2 {
@@ -1269,20 +1269,20 @@
 		
 		@media(max-width: 800px) {
 			.typewritercontainer {
-			padding: 0 1rem !important;
+			padding: 0 2rem !important;
 			}
 		
 			.typewritercontainer h1 {
-			font-size: 1.5rem !important;
+			font-size: 2rem !important;
 			}
 		}
 		
 		@media(max-width: 500px) {
 			.typewritercontainer h1 {
-			font-size: 1rem !important;
+			font-size: 3rem !important;
 			}
 			.typewritercontainer h2 {
-			font-size: 0.5rem !important;
+			font-size: 1.5rem !important;
 			}
 		}
 
