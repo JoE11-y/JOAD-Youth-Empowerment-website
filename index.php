@@ -184,22 +184,22 @@
 					<section class="profiles">
 						<div class="row">
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/Olamide1.jpeg" alt="" />
+								<img src="images/Olamide1.jpeg" alt="" width="120px" height="120px"/>
 								<h4>Olamide Komolafe</h4>
 								<p>Social Media Manager </br> Graphics Designer</p>
 							</section>
 							<section class="3u 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/Joseph.jpeg" alt="" />
+								<img src="images/Joseph.jpeg" alt="" width="120px" height="120px" />
 								<h4>Joseph Edoh</h4>
 								<p>Programmer </br> Web Developer</p>
 							</section>
 							<section class="3u 6u(medium) 12u$(xsmall) profile">
-								<img src="images/arinola2.jpg" alt=""/>
+								<img src="images/arinola2.jpg" alt="" width="120px" height="120px"/>
 								<h4>Arinola Quadri</h4>
 								<p>Brand Ambassador </br> Research Writer </br> Content Developer </p>
 							</section>
 							<section class="3u$ 6u$(medium) 12u$(xsmall) profile">
-								<img src="images/damilola.jpeg" alt="" />
+								<img src="images/damilola.jpeg" alt="" width="120px" height="120px"/>
 								<h4>Damilola Akintola</h4>
 								<p>Writer @ Culture Custodian </br> Blogger </p>
 							</section>
