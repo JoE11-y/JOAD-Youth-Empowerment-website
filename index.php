@@ -55,10 +55,10 @@
                     <h3>Registration Form</h3>
                     <form method="post" action="">
                         <div class="row uniform 50%">
-                        	<div class="6u 12u$(4)">
+                        	<div class="12u$">
                                 <input type="text" name="name" id="name" value="" placeholder="Name" required/>
                             </div>
-                            <div class="6u$ 12u$(4)">
+                            <div class="12u$">
                                 <input type="email" name="email" id="email" value="" placeholder="Email" required/>
                             </div>
                             <div class="12u$">
@@ -73,7 +73,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="6u$ 12u$(4)">
+                            <div class="12u$">
                                 <input type="tel" name="phone" id="phone" value="" placeholder="Phone Number" required/>
                             </div>
                             <div class="12u$">
