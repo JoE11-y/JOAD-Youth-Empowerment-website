@@ -1035,7 +1035,7 @@
 /* Banner */
 
 	#banner {
-		background-image: url(../images/dark_tint.png), url(../images/background.jpg);
+		background-image: url(../images/dark_tint.png), url(../images/back2.jpg);
 		background-position: center center;
 		background-size: cover;
 		color: #ffffff;
@@ -1235,6 +1235,7 @@
 
 /*typewriter effect*/
 	@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+	@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 
 
 	.typewritercontainer {
@@ -1244,18 +1245,20 @@
 		height: 100%;
 		padding: 0 3rem;
 		padding-bottom: 3em;
-		font-family: 'Raleway', sans-serif;
+		font-family: 'Goldman', cursive;
+		/*font-family: 'Raleway', sans-serif;*/
 	}
 
 		.typewritercontainer h1, h2 {
-  			font-weight: 300;
+  			font-weight: unset;
 			margin: 0.4rem;
 			
 		}
 
 		.typewritercontainer h1 {
-			  font-size: 2rem !important;
-			  color: rgb(17, 17, 17);
+			font-size: 2rem !important;
+			color: rgb(17, 17, 17);
+
 		}
 
 		.typewritercontainer h2 {
@@ -1264,7 +1267,7 @@
 		}
 /* Cursor in typewriter effect */
 		.txt-type > .txt {
-  		border-right: 0.2rem solid #777;
+  		border-right: 0.2rem solid rgb(17, 17, 17);
 		}
 
 		@media(min-width: 1200px) {

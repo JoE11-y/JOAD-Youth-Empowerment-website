@@ -90,9 +90,8 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="typewritercontainer">
-					<h1>Welcome to the </br> <span class="txt-type" data-wait="3000" data-words='["BIGGEST","BADDEST","COOLEST","CRAZIEST"]'></span> </br>
+					<h1>Welcome to the </br> <span class="txt-type" data-wait="3000" data-words='["BIGGEST","COOLEST"]'></span> </br>
 					virtual skill training event</h1>
-			
 
 				</div> 
 				
@@ -113,7 +112,7 @@
 				<div class="container">	
 					<header class="major">
 						<h2>A Virtual 4-Day Skill Acquisition Program</h2>
-						<p>Great opportunity to learn in-demand skills for just a minimal fee</p>
+						<p>Great opportunity to learn in-demand skills</p>
 					</header>
 
 					<hr />
@@ -123,7 +122,7 @@
 						Wondering how to be your boss without having to leave your home? </br>
 						What's the secret to earning six figures and more? </br>
 						Can you make so much despite a harsh economy?</br>
-						Wondering on how you can join this digital train? </br>
+						Wondering how you can join the digital shift of the world? </br>
 						<code> Well look no further </code></br>
 						Now is the chance for you to take the initiative </br>
 						The biggest level up skill acquisition is about to take place and at a discounted offer! </br>
@@ -167,7 +166,7 @@
 							<section class="box">
 								<i class="icon big rounded color6 fa-deviantart"></i>
 								<h3>Social Media Marketing</h3>
-								<p>Learn to increase brand presence online</p>
+								<p>Learning different ways to increase brand presence online</p>
 							</section>
 						</div>
 					</div>
@@ -247,7 +246,7 @@
 						<div class="8u 12u$(medium)">
 							<ul class="copyright">
 								<li>&copy; 2020. All rights reserved.</li>
-								<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+								<li>Design: <a href="htt://templated.co">TEMPLATED</a></li>
 							</ul>
 						</div>
 						<div class="4u$ 12u$(medium)">
