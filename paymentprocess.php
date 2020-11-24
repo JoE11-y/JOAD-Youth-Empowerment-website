@@ -18,6 +18,7 @@ if(isset($_POST['submit'])){
     CURLOPT_CUSTOMREQUEST => "POST",
     CURLOPT_POSTFIELDS => json_encode([
       'amount'=>$amount,
+      'customer_name'=>$customer_name,
       'customer_email'=>$customer_email,
       'currency'=>$currency,
       'txref'=>$txref,

@@ -108,10 +108,6 @@
 					virtual skill training event</h1>
 
 				</div> 
-				
-				<div>
-
-				</div>
 				<ul class="actions">
 					<li>
 						<a href="#" class="button big modal-btn">Join Us</a>
