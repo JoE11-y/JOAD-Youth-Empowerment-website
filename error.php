@@ -23,6 +23,9 @@
             footer: '<a href="index.php">Why do I have this issue?</a>'
         })         
     </script>
+    <script type="text/JavaScript">
+      setTimeout("location.href = 'index.php';",2000);
+    </script>
 </body>
 </html>
 

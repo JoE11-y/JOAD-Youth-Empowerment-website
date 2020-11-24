@@ -16,12 +16,17 @@
 </head>
 <body>
     <script>
-        Swal.fire(
-          'Registration successful',
-          'Please check your mail for more information on how to join the onboarding program.',
-          'success'
-    )        
+      Swal.fire(
+        'Registration successful',
+        'Please check your mail for more information on how to join the onboarding program.',
+        'success'
+       )
     </script>
+
+    <script type="text/JavaScript">
+      setTimeout("location.href = 'index.php';",2000);
+    </script>
+
 </body>
 </html>
 

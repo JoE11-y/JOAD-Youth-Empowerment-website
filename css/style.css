@@ -1372,6 +1372,7 @@
 	background-color: #242f3f;
 	display: flex;
 	justify-content: center;
+	align-content: center center;
   }
 	.loader {
 		position: relative;
@@ -1381,7 +1382,7 @@
 		height: 30px;
 		position: relative;
 		border: 4px solid #Fff;
-		animation: loader 2s infinite ease;
+		animation: loader 6s infinite ease;
 	}
 	.loader-inner {
 		position: relative;
@@ -1389,7 +1390,7 @@
 		display: inline-block;
 		width: 100%;
 		background-color: #fff;
-		animation: loader-inner 2s infinite ease-in;
+		animation: loader-inner 6s infinite ease-in;
 	}
 	@keyframes loader {
 		0% { transform: rotate(0deg);}
