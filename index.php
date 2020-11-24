@@ -1,5 +1,5 @@
 <?php include 'sendemail.php'; ?>
-
+<?php include 'paymentprocess.php'; ?>
 
 <!DOCTYPE html>
 <!--
@@ -35,6 +35,17 @@
 	<?php echo $alert; ?>
 	<!--alert messages start-->
 	<script src="js/load.js"></script>
+
+		<!-- Preloader -->
+		<div class="loader-wrapper">
+      		<span class="loader"><span class="loader-inner"></span></span>
+    	</div>
+   		<script>
+        	$(window).on("load",function(){
+				$(".loader-wrapper").delay(3000).fadeOut("slow");
+			});
+        	
+    	</script>
 
 		<!-- Header -->
 			<header id="header">
@@ -75,7 +86,10 @@
                             </div>
                             <div class="12u$">
                                 <input type="tel" name="phone" id="phone" value="" placeholder="Phone Number" required/>
-                            </div>
+							</div>
+							<div class="12u$">
+								<input type="hidden" name="amount" id="amount"  value="1000">
+							</div>
                             <div class="12u$">
                                 <ul class="actions">
                                     <li><input type="submit" name="submit" value="Sign Up" class="special" /></li>
