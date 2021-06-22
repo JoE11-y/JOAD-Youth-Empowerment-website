@@ -2,11 +2,6 @@
 <?php include 'paymentprocess.php'; ?>
 
 <!DOCTYPE html>
-<!--
-	Transit by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -256,7 +251,6 @@
 						<div class="8u 12u$(medium)">
 							<ul class="copyright">
 								<li>&copy; 2020. All rights reserved.</li>
-								<li>Design: <a href="htt://templated.co">TEMPLATED</a></li>
 							</ul>
 						</div>
 						<div class="4u$ 12u$(medium)">
